@@ -9,6 +9,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 ##
 ## Aliases - moving around
+##
 
 alias ..="cd .."
 alias brc="emacs ~/.bashrc"
@@ -18,6 +19,7 @@ alias sw="cd /Users/swada/cs/swada-personal/"
 alias c="cd /box/www/current_local/"
 alias i="cd /box/www/infra/"
 alias s="cd /box/www/infra/scala/"
+alias sarahwada="cd /Users/swada/sarahwada-personal/"
 
 alias sbt="sbt shell"
 # sbt testing env for pod
@@ -33,6 +35,12 @@ alias cdcli-s="cd /box/www/infra/scala/tools/cache-admin-cli/target/universal/st
 alias cdcli="cd /box/www/infra/scala/tools/cache-admin-cli/target/scala-2.10"
 alias cdacli-s="cd /box/www/infra/scala/tools/appconf-admin-cli/target/universal/stage/bin/"
 alias cdacli="cd /box/www/infra/scala/tools/appconf-admin-cli/target/scala-2.10"
+
+##
+## Aliases - moving things to swada.dev.box.net
+##
+alias scp-credence-cache="scp -r /box/www/infra/scala/services/credence/src/main/scala/com/box/credence/cache swada:~/infra/scala/services/credence/src/main/scala/com/box/credence/"
+alias git-remote-sync="./bin/git_sync_to_remote.sh swada /home/swada/infra"
 
 ##
 ## Aliases - opening things

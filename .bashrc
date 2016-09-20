@@ -40,7 +40,8 @@ alias cdacli="cd /box/www/infra/scala/tools/appconf-admin-cli/target/scala-2.10"
 ## Aliases - moving things to swada.dev.box.net
 ##
 alias scp-credence-cache="scp -r /box/www/infra/scala/services/credence/src/main/scala/com/box/credence/cache swada:~/infra/scala/services/credence/src/main/scala/com/box/credence/"
-alias git-remote-sync="./bin/git_sync_to_remote.sh swada /home/swada/infra"
+alias git-remote-sync-diff="/usr/local/bin/git_sync_to_remote.sh -h swada  -p /home/swada/infra -d true"
+alias git-remote-sync="/usr/local/bin/git_sync_to_remote.sh -h swada  -p /home/swada/infra"
 
 ##
 ## Aliases - opening things

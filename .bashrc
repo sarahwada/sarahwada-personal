@@ -8,6 +8,11 @@
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 ##
+## Aliases - Airbnb
+##
+alias sc="npm run -s sanity-check --"
+
+##
 ## Aliases - moving around
 ##
 

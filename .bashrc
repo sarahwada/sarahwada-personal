@@ -14,34 +14,9 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias ..="cd .."
 alias brc="emacs ~/.bashrc"
 alias sbrc="source ~/.bashrc"
-alias sw="cd /Users/swada/cs/swada-personal/"
+alias sw="cd /Users/sarah_wada/cs/swada-personal/"
 
-alias c="cd /box/www/current_local/"
-alias i="cd /box/www/infra/"
-alias s="cd /box/www/infra/scala/"
-alias sarahwada="cd /Users/swada/sarahwada-personal/"
-
-alias sbt="sbt shell"
-# sbt testing env for pod
-alias sbt-mcfun="sbt -Dsbt.log.noformat=true -Dbox.endpoint.cacheproxyd=pod4101-overmind01:31212 -Dbox.endpoint.cachemanager.admin=cacheman03.dev.box.net:8152 -Dbox.endpoint.memcache=appcache01.dev.box.net:11211 -Dbox.environments=devvm,dev,pod4101"
-alias sbt-cmfun="sbt -Dsbt.log.noformat=true -Dbox.endpoint.cachemanager=cacheman03.dev.box.net:8151 -Dbox.endpoint.cachemanager.admin=cacheman03.dev.box.net:8152 -Dbox.environments=devvm,dev,pod4101"
-
-alias cpd="cd /box/www/infra/cachemanager/cacheproxy/"
-alias cm="cd /box/www/infra/scala/services/cache-manager/src/main/scala/com/box/"
-alias cm-test="cd /box/www/infra/scala/services/cache-manager/src/test/scala/com/box/"
-alias ac="cd /box/www/appconf/"
-alias cli="cd /box/www/infra/scala/tools/cache-admin-cli/src/main/scala/com/box/cacheadmincli/"
-alias cdcli-s="cd /box/www/infra/scala/tools/cache-admin-cli/target/universal/stage/bin/"
-alias cdcli="cd /box/www/infra/scala/tools/cache-admin-cli/target/scala-2.10"
-alias cdacli-s="cd /box/www/infra/scala/tools/appconf-admin-cli/target/universal/stage/bin/"
-alias cdacli="cd /box/www/infra/scala/tools/appconf-admin-cli/target/scala-2.10"
-
-##
-## Aliases - moving things to swada.dev.box.net
-##
-alias scp-credence-cache="scp -r /box/www/infra/scala/services/credence/src/main/scala/com/box/credence/cache swada:~/infra/scala/services/credence/src/main/scala/com/box/credence/"
-alias git-remote-sync-diff="/usr/local/bin/git_sync_to_remote.sh -h swada  -p /home/swada/infra -d true"
-alias git-remote-sync="/usr/local/bin/git_sync_to_remote.sh -h swada  -p /home/swada/infra"
+alias a="cd /Users/sarah_wada/airlab/"
 
 ##
 ## Aliases - opening things

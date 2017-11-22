@@ -13,25 +13,34 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias sc="npm run -s sanity-check --"
 
 ##
+## Aliases - Kafka
+##
+alias startzk="bin/zookeeper-server-start.sh config/zookeeper.properties"
+alias startk1="bin/kafka-server-start.sh config/server1.properties"
+alias startk2="bin/kafka-server-start.sh config/server2.properties"
+alias startk3="bin/kafka-server-start.sh config/server3.properties"
+
+##
 ## Aliases - moving around
 ##
 
 alias ..="cd .."
 alias brc="emacs ~/.bashrc"
 alias sbrc="source ~/.bashrc"
-alias sw="cd /Users/sarah_wada/cs/swada-personal/"
+alias sw="cd /Users/sarah_wada/code/sarahwada-personal/"
 
 alias a="cd /Users/sarah_wada/airlab/"
+alias sj="cd /Users/sarah_wada/repos/scram-java/"
+alias sr="cd /Users/sarah_wada/repos/scram-ruby/"
+alias ch="cd /Users/sarah_wada/repos/chef/"
 
 ##
-## Aliases - opening things
+## Aliases - general
 ##
 alias ee="open -a emacs"
-
-##
-## Aliases - doing things
-##
 alias grep="grep --color=auto"
+alias ls="ls -G"
+alias ll="ls -lah"
 
 ##
 ## Aliases - heroku

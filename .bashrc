@@ -12,6 +12,18 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 ##
 alias sc="npm run -s sanity-check --"
 
+# kafka-upshot host
+alias host-ku="optica role=kafka-upshot | tail -n 1"
+alias ssh-ku="ssh $(host-ku)"
+
+# scram-flink-jobmanager-b host
+alias ssh-jm1-b="ssh $(optica role=scram-flink-jobmanager-b | sed -n 1p)"
+alias ssh-jm2-b="ssh $(optica role=scram-flink-jobmanager-b | sed -n 2p)"
+# scram-runner-b host
+alias ssh-sr1-b="ssh $(optica role=scram-runner-b | sed -n 1p)"
+alias ssh-sr2-b="ssh $(optica role=scram-runner-b | sed -n 2p)"
+alias ssh-sr3-b="ssh $(optica role=scram-runner-b | sed -n 3p)"
+
 ##
 ## Aliases - Kafka
 ##

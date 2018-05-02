@@ -8,3 +8,4 @@
    https://www.jetbrains.com/help/idea/exporting-and-importing-settings.html#d245166e56
    - To allow repeat execution of keyboard shortcut on hey holddown, run:
        defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
+   - put vmoptions in "/Applications/IntelliJ\ IDEA\ CE.app/Contents/bin/idea.vmoptions"

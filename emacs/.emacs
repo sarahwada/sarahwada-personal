@@ -8,3 +8,10 @@
 
 ;; don't use tabs for indentation
 (setq-default indent-tabs-mode nil)
+
+;; load aliases
+(load "emacs-aliases")
+
+;; mac-style undo and redo
+;;(global-set-key (kbd "C-z") 'undo) ; 【Ctrl+z】
+;;(global-set-key (kbd "C-Z") 'redo) ; 【Ctrl+Shift+z】

@@ -1,0 +1,10 @@
+A doc of commonly used commands. 
+
+# fab is used to execute remote commands. must execute within chef folder
+[airbnb][fab]  fab -t 120 -R <chef_role> sudo_command:'service flink-taskmanager restart'
+
+# get uptime of a process
+[linux]        ps -eo pid,comm,lstart,etime,time,args | grep <process>
+
+# example of using awk to pretty-format something
+[awk][pretty]  cat 2018-03-14-17.trebuchet_alert_message.out | while IFS= read -r line; do echo "$line" | pretty; done > 2018-03-14-17.trebuchet_alert_message.pretty

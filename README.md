@@ -1,6 +1,6 @@
 # sarahwada-personal
 
-- put .bashr.c, .bash_profile, .emacs in your ~/ dir. put emacs-aliases in ~/.emacs.d/
+- put .bashr.c, .bash_profile, .emacs, .useful_commands in your ~/ dir. put emacs-aliases in ~/.emacs.d/
   remap cmd->ctrl and ctrl->cmd
 - iterm2: open system preferences, and click "load from directory". route to this
    dir but don't overwrite to this dir

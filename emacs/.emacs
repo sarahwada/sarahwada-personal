@@ -10,7 +10,10 @@
 (setq-default indent-tabs-mode nil)
 
 ;; load aliases
-(load "emacs-aliases")
+(load "~/.emacs.d/emacs-aliases")
+
+;; hide the welcome scene
+(setq inhibit-startup-screen t)
 
 ;; mac-style undo and redo
 ;;(global-set-key (kbd "C-z") 'undo) ; 【Ctrl+z】

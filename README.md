@@ -1,6 +1,6 @@
 # sarahwada-personal
 
-- put .bashr.c, .bash_profile, .emacs, .useful_commands in your ~/ dir. put emacs-aliases in ~/.emacs.d/
+- put .bashr.c, .bash_profile, .emacs, .useful_commands, .zshrc in your ~/ dir. put emacs-aliases in ~/.emacs.d/
   remap cmd->ctrl and ctrl->cmd
 - iterm2: open system preferences, and click "load from directory". route to this
    dir but don't overwrite to this dir
@@ -11,6 +11,9 @@
        defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
    - put vmoptions in "/Applications/IntelliJ\ IDEA\ CE.app/Contents/bin/idea.vmoptions"
 
+# zsh setup
+- install zsh via brew, oh my zsh
+- put zsh/.aliases in ~/.oh-my-zsh/custom/
 
 # git setup:
 - > git config --global core.editor "emacs -nw"

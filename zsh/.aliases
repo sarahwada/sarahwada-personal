@@ -1,0 +1,73 @@
+##
+## zsh aliases
+##
+
+## System
+alias ps-p="ps -eo pid,comm,lstart,etime,time,args"
+
+## Moving around
+alias ..="cd .."
+alias brc="emacs ~/.bashrc"
+alias sbrc="source ~/.bashrc"
+alias zrc="emacs ~/.zshrc"
+alias szrc="source ~/.zshrc"
+
+alias uc="emacs ~/.useful_commands"
+alias sw="cd $HOME/code/sarahwada-personal/"
+alias cdc="cd $HOME/code/"
+
+## Okay
+alias cdo="cd $HOME/okay/code/okay"
+
+##
+## Aliases - general
+##
+alias emacs="emacs -nw"
+alias emacsw="emacs"
+alias grep="grep --color=auto"
+alias ls="ls -G"
+alias ll="ls -lah"
+
+alias pretty="python -m json.tool"
+
+##
+## Aliases - heroku
+##
+alias hl="heroku local"
+alias svenv="source venv/bin/activate"
+
+##
+## Aliases - git
+##
+alias gbr="git branch"
+alias gch="git checkout"
+alias gpu="git pull"
+
+alias gdi="git diff"
+alias glo="git log"
+alias glo-p="get log --pretty=oneline"
+alias grf="git reflog"
+alias gsh="git show"
+alias gsh-n="git show --name-only"
+
+alias gst="git status"
+alias gst-s="git status -s"
+alias gad="git add"
+alias gada="git add ."
+alias gaa-gco="git add . && git commit"
+alias gaa-gco-a="git add . && git commit --amend"
+
+alias gco="git commit"
+alias gco-m="git commit -m"
+alias gco-a="git commit --amend"
+
+alias gfe="git fetch"
+alias gferb="git fetch && git rebase"
+alias gfe-ha="git fetch && git reset --hard HEAD"
+alias gcp="git cherry-pick"
+# -n (--no-commit): inspect the cherry-pick before committing it
+alias gcp-n="git cherry-pick -n"
+alias grb="git rebase"
+alias grb-c="git rebase --continue"
+alias grb-s="git rebase --skip"
+alias grb-i="git rebase -i"

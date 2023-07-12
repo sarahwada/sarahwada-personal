@@ -15,5 +15,5 @@ if type brew &>/dev/null; then
   fi
 fi
 
-# [okay] set up dbt autocomplete
-echo 'source ~/.dbt-completion.bash' >> ~/.bash_profile
+# set up brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
